@@ -3,8 +3,8 @@ include <string>
 
 int main() 
 {
-    string str;
-    getline(std::cin, str);
+    string str; // name
+    getline(std::cin, str); // read name
     std::cout << "Hello World from " << str;
     return 0;
 }
