@@ -1,9 +1,12 @@
 include <iostream>
+include <string>
 
 using namespace std;
 
 int main() 
 {
-    cout << "Hello World!";
+    string str;
+    getline(cin, str);
+    cout << "Hello World from " << str;
     return 0;
 }
